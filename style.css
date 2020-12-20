@@ -1,22 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 header {
     height: 620px;
     text-align: center;
-    background-image: url("mainimg.jpg");
-    background-size: 100% 100%;
-    text-shadow: 2px 2px 5px rgba(247, 35, 151, 0.925);
+    text-shadow: 2px 2px 5px rgba(199, 131, 6, 0.925);
 }
-
-html {
-    display: block
-}
-
 body {
     font-family: 'Prompt', sans-serif;
     margin: 0.1rem;
     margin-top: 0.1rem;
-    background-image: linear-gradient(to left, rgba(255, 0, 85, 0.384), rgba(255, 0, 76, 0.938));
+    background-image: linear-gradient(to left, rgba(92, 13, 219, 0.644), rgba(31, 240, 94, 0.938));
 }
 
 .intro {
@@ -29,9 +22,15 @@ body {
     margin-inline-end: 200px;
 }
 
-.para {
-    padding-bottom: 2rem;
+.welc p {
+    
     font-weight: 600;
+    font-size:2em;
+    top:50%;
+    left:42%;
+position: absolute;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
 }
 
 footer {
@@ -43,7 +42,7 @@ footer {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 1rem;
+    margin-bottom: 0.0rem;
 }
 
 .img {
@@ -53,3 +52,35 @@ footer {
     width: 50%;
     text-align: center;
 }
+.shadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.637);
+}
+.h1{
+    margin-bottom: 0em;
+}
+.welc h1 {
+    font-size: 5em;
+    top:30%;
+    left:30%;
+position: absolute;
+    text-align: center;
+    font-weight: bold;
+    
+    font-family: 'Satisfy', cursive;
+}
+
+.hero-image {
+    background-image: url("mainimg.jpg");
+    height:600px;
+    filter: blur(1px);
+  -webkit-filter: blur(px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+  } 
+  .welc img{
+    top:12%;
+    left:38%;
+position: absolute;
+  }
