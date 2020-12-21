@@ -13,24 +13,23 @@ body {
 }
 
 .intro {
-    font-size: larger;
+     font-size: larger;
     text-align: center;
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 200px;
-    margin-inline-end: 200px;
-}
-
-.welc p {
+    display:block;
+    margin-block-start: 3em;
+    height: 350px;
+    margin-inline-start: 100px;
+    margin-inline-end: 500px;
     
-    font-weight: 600;
-    font-size:2em;
+}
+.welc p {
+    font-size: 2em;
     top:50%;
     left:42%;
 position: absolute;
-    text-align: center;
-    font-family: 'Satisfy', cursive;
+    text-align: center; 
+     font-family: 'Satisfy', cursive;
+     
 }
 
 footer {
@@ -56,15 +55,15 @@ footer {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.637);
 }
 .h1{
-    margin-bottom: 0em;
+    margin-bottom:2px;
 }
 .welc h1 {
-    font-size: 5em;
+    font-size: 80px;
     top:30%;
     left:30%;
 position: absolute;
-    text-align: center;
-    font-weight: bold;
+    text-align: center; 
+     font-weight: bold; 
     
     font-family: 'Satisfy', cursive;
 }
@@ -78,9 +77,31 @@ position: absolute;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative;
+
   } 
   .welc img{
     top:12%;
     left:38%;
-position: absolute;
+    position: absolute;
   }
+  @media screen and (min-width: 755px) {
+    .welc h1 {
+      font-size: 80px;
+    }
+  }
+   @media screen and (max-width: 756px) {
+    .welc h1 {
+      font-size: 30px;
+      top: 40%;
+      left: 42%;
+    }
+  }
+  .sidebar{
+      display: block;
+float: right;
+max-width: 300px;
+text-align: left;
+padding: 0.0rem 1rem;
+background-color: rgba(140, 226, 173, 0.856);
+  }
+  
