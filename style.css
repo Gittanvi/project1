@@ -16,10 +16,11 @@ body {
      font-size: larger;
     text-align: center;
     display:block;
-    margin-block-start: 3em;
-    height: 350px;
-    margin-inline-start: 100px;
-    margin-inline-end: 500px;
+    height: 380px;
+    width: 800px;
+    margin-top: 5rem;
+    margin-left: 6rem;
+    
     
 }
 .welc p {
