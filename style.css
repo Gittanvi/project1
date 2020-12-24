@@ -104,4 +104,35 @@ text-align: left;
 padding: 0.0rem 1rem;
 background-color: rgba(140, 226, 173, 0.856);
   }
+  .list-nonbullet{
+    list-style-type: none;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+  }
+  .list-nonbullet a{
+    text-decoration: none;
+    font-size:larger;
+  }
+  .nav-list{
+    display: inline;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  .nav-list a{
+    text-decoration: none;
+color: rgb(0, 0, 0);
+    font-size: large;
+   display: inline-block;
+   padding: 1rem 2rem;
+  }
+  .nav-list a:hover{
+    background-color:rgb(8, 211, 143);
+  }
+  nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    overflow:hidden;
+    background-color:rgba(137, 73, 241, 0.582);
+    }
   
